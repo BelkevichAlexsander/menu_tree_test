@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+{% load menu_extras %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    {% load menu_extras %}
+</head>
+<body>
+    <div>
+        <h1>Добро пожаловать</h1>
+        <div>
+            {% draw_menu 'first menu' %}
+            <br>
+            <br>
+            <br>
+            {% draw_menu 'second menu' %}
+        </div>
+
+    </div>
+
+</body>
+</html>
